@@ -16,7 +16,7 @@
                                   audit-actions)
                             audit-actions))
                        )]
-    (when 
+    (when audit-actions
       (let [cookie-string (:cookie request)
             session-uuid (ssn/get-cookie
                            cookie-string
