@@ -1,4 +1,4 @@
-(defproject org.clojars.vladimirmarkovic86/audit-lib "0.1.0"
+(defproject org.clojars.vladimirmarkovic86/audit-lib "0.1.1"
   :description "Audit library"
   :url "http://github.com/VladimirMarkovic86/audit-lib"
   :license {:name "Eclipse Public License"
