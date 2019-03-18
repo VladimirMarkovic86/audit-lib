@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojars.vladimirmarkovic86/mongo-lib "0.2.4"]
                  [org.clojars.vladimirmarkovic86/utils-lib "0.4.6"]
-                 [org.clojars.vladimirmarkovic86/session-lib "0.2.12"]
+                 [org.clojars.vladimirmarkovic86/session-lib "0.2.13"]
                  ]
 
   :min-lein-version "2.0.0"
