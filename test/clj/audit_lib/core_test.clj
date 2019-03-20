@@ -37,15 +37,12 @@
 (defn destroy-db
   "Destroy testing database"
   []
-  (mon/mongodb-delete-by-filter
-    "audit"
-    {})
-  (mon/mongodb-delete-by-filter
-    "session"
-    {})
-  (mon/mongodb-delete-by-filter
-    "user"
-    {})
+  (mon/mongodb-drop-collection
+    "audit")
+  (mon/mongodb-drop-collection
+    "session")
+  (mon/mongodb-drop-collection
+    "user")
   (mon/mongodb-disconnect))
 
 (defn before-and-after-tests
